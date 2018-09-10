@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- person has a property type of class "ability" -->
+<bean id="person" class="com.abhishek.stir.Person">
+		<property name="ability" ref="invisible" />
+	</bean>
+	
+	<bean id="invisible" class="com.abhishek.stir.Ability" >
+		<property name="skill" value="Invisible" />
+	</bean>
